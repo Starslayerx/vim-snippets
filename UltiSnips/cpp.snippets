@@ -1,0 +1,34 @@
+snippet main
+int main()
+{
+	${0}
+
+	return 0;
+}
+endsnippet
+
+snippet using
+using namespace ${0:identifier};
+endsnippet
+
+snippet ut
+using namespace std;
+endsnippet
+
+snippet for
+for (${1:init-statement}; ${2:condition}; ${3:inc-expression})
+{
+	${0:statements}
+}
+endsnippet
+
+snippet while
+while (${1:condition})
+{
+	${0:statements}
+}
+endsnippet
+
+snippet con
+const int ${1:variable} = ${0:number};
+endsnippet
