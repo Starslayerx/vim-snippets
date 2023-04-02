@@ -2,7 +2,7 @@
 ```
 " Ultisnips
 let g:UltiSnipsEnableSnipMate = 1 " 开启ultisnips插件
-let g:UltiSnipsSnippetDirectories=["~/.config/nvim/UltiSnips"]
+let g:UltiSnipsSnippetDirectories=["~/.config/nvim/UltiSnips"] " 指定UltiSnips配置文件夹位置
 
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
